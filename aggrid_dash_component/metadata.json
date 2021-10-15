@@ -9,6 +9,18 @@
         "modifiers": [],
         "params": [],
         "returns": null
+      },
+      {
+        "name": "autoSizeAll",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "skipHeader",
+            "type": null
+          }
+        ],
+        "returns": null
       }
     ],
     "props": {
@@ -17,42 +29,49 @@
           "name": "string"
         },
         "required": false,
-        "description": "The ID used to identify this component in Dash callbacks."
+        "description": ""
+      },
+      "rowSelection": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
       },
       "gridApi": {
         "type": {
           "name": "object"
         },
         "required": false,
-        "description": "gridApi for ag-Grid."
+        "description": ""
       },
       "columnDefs": {
         "type": {
           "name": "array"
         },
         "required": false,
-        "description": "columnDefs for ag-Grid."
+        "description": ""
       },
       "rowData": {
         "type": {
           "name": "array"
         },
         "required": false,
-        "description": "rowData for ag-Grid."
+        "description": ""
       },
       "selectedRows": {
         "type": {
           "name": "array"
         },
         "required": false,
-        "description": "selectedRows for ag-Grid."
+        "description": ""
       },
       "setProps": {
         "type": {
           "name": "func"
         },
         "required": false,
-        "description": "Dash-assigned callback that should be called to report property changes\r\nto Dash, to make them available for callbacks."
+        "description": ""
       },
       "table_height": {
         "type": {
@@ -64,6 +83,48 @@
       "table_width": {
         "type": {
           "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "pinnedTopRowData": {
+        "type": {
+          "name": "any"
+        },
+        "required": false,
+        "description": ""
+      },
+      "pagination": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": ""
+      },
+      "animateRows": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": ""
+      },
+      "enableCellChangeFlash": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": ""
+      },
+      "rowDragManaged": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": ""
+      },
+      "rowDragEntireRow": {
+        "type": {
+          "name": "bool"
         },
         "required": false,
         "description": ""

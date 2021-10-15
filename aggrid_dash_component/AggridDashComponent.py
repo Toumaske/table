@@ -11,31 +11,40 @@ displays them.
 
 Keyword arguments:
 
-- id (string; optional):
-    The ID used to identify this component in Dash callbacks.
+- id (string; optional)
 
-- columnDefs (list; optional):
-    columnDefs for ag-Grid.
+- animateRows (boolean; optional)
 
-- gridApi (dict; optional):
-    gridApi for ag-Grid.
+- columnDefs (list; optional)
 
-- rowData (list; optional):
-    rowData for ag-Grid.
+- enableCellChangeFlash (boolean; optional)
 
-- selectedRows (list; optional):
-    selectedRows for ag-Grid.
+- gridApi (dict; optional)
+
+- pagination (boolean; optional)
+
+- pinnedTopRowData (boolean | number | string | dict | list; optional)
+
+- rowData (list; optional)
+
+- rowDragEntireRow (boolean; optional)
+
+- rowDragManaged (boolean; optional)
+
+- rowSelection (string; optional)
+
+- selectedRows (list; optional)
 
 - table_height (string; optional)
 
 - table_width (string; optional)"""
     @_explicitize_args
-    def __init__(self, id=Component.UNDEFINED, gridApi=Component.UNDEFINED, columnDefs=Component.UNDEFINED, rowData=Component.UNDEFINED, selectedRows=Component.UNDEFINED, table_height=Component.UNDEFINED, table_width=Component.UNDEFINED, **kwargs):
-        self._prop_names = ['id', 'columnDefs', 'gridApi', 'rowData', 'selectedRows', 'table_height', 'table_width']
+    def __init__(self, id=Component.UNDEFINED, rowSelection=Component.UNDEFINED, gridApi=Component.UNDEFINED, columnDefs=Component.UNDEFINED, rowData=Component.UNDEFINED, selectedRows=Component.UNDEFINED, table_height=Component.UNDEFINED, table_width=Component.UNDEFINED, pinnedTopRowData=Component.UNDEFINED, pagination=Component.UNDEFINED, animateRows=Component.UNDEFINED, enableCellChangeFlash=Component.UNDEFINED, rowDragManaged=Component.UNDEFINED, rowDragEntireRow=Component.UNDEFINED, **kwargs):
+        self._prop_names = ['id', 'animateRows', 'columnDefs', 'enableCellChangeFlash', 'gridApi', 'pagination', 'pinnedTopRowData', 'rowData', 'rowDragEntireRow', 'rowDragManaged', 'rowSelection', 'selectedRows', 'table_height', 'table_width']
         self._type = 'AggridDashComponent'
         self._namespace = 'aggrid_dash_component'
         self._valid_wildcard_attributes =            []
-        self.available_properties = ['id', 'columnDefs', 'gridApi', 'rowData', 'selectedRows', 'table_height', 'table_width']
+        self.available_properties = ['id', 'animateRows', 'columnDefs', 'enableCellChangeFlash', 'gridApi', 'pagination', 'pinnedTopRowData', 'rowData', 'rowDragEntireRow', 'rowDragManaged', 'rowSelection', 'selectedRows', 'table_height', 'table_width']
         self.available_wildcard_properties =            []
         _explicit_args = kwargs.pop('_explicit_args')
         _locals = locals()
