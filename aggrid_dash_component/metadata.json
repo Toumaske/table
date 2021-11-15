@@ -1,0 +1,134 @@
+{
+  "src/lib/components/AggridDashComponent.react.js": {
+    "description": "AggridDashComponent is a component wrapped on ag-Grid.\r\nIt takes two property, `columnDefs`, and `rowData`\r\ndisplays them.",
+    "displayName": "AggridDashComponent",
+    "methods": [
+      {
+        "name": "onSelectionChanged",
+        "docblock": null,
+        "modifiers": [],
+        "params": [],
+        "returns": null
+      },
+      {
+        "name": "autoSizeAll",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "skipHeader",
+            "type": null
+          }
+        ],
+        "returns": null
+      }
+    ],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "rowSelection": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "gridApi": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": ""
+      },
+      "columnDefs": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": ""
+      },
+      "rowData": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": ""
+      },
+      "selectedRows": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": ""
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": ""
+      },
+      "table_height": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "table_width": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "pinnedTopRowData": {
+        "type": {
+          "name": "any"
+        },
+        "required": false,
+        "description": ""
+      },
+      "pagination": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": ""
+      },
+      "animateRows": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": ""
+      },
+      "enableCellChangeFlash": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": ""
+      },
+      "rowDragManaged": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": ""
+      },
+      "rowDragEntireRow": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": ""
+      }
+    }
+  }
+}
