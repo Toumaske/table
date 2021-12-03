@@ -11,12 +11,26 @@
         "returns": null
       },
       {
-        "name": "autoSizeAll",
+        "name": "onCellValueChanged",
+        "docblock": null,
+        "modifiers": [],
+        "params": [],
+        "returns": null
+      },
+      {
+        "name": "onColumnMoved",
+        "docblock": null,
+        "modifiers": [],
+        "params": [],
+        "returns": null
+      },
+      {
+        "name": "onColumnEvent",
         "docblock": null,
         "modifiers": [],
         "params": [
           {
-            "name": "skipHeader",
+            "name": "e",
             "type": null
           }
         ],
@@ -60,6 +74,27 @@
         "description": ""
       },
       "selectedRows": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": ""
+      },
+      "columnState": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": ""
+      },
+      "resizedColumn": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": ""
+      },
+      "cellValueChanged": {
         "type": {
           "name": "array"
         },
@@ -125,6 +160,34 @@
       "rowDragEntireRow": {
         "type": {
           "name": "bool"
+        },
+        "required": false,
+        "description": ""
+      },
+      "tooltipShowDelay": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "singleClickEdit": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": ""
+      },
+      "debounceVerticalScrollbar": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": ""
+      },
+      "rowBuffer": {
+        "type": {
+          "name": "string"
         },
         "required": false,
         "description": ""
