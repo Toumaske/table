@@ -1,6 +1,6 @@
-# aggrid dash component
+# Dash AG Grid Component
 
-aggrid dash component is a Dash component library.
+Dash AG Grid Component is a Dash component library.
 
 Get started with:
 1. Install Dash and its dependencies: https://dash.plotly.com/installation
@@ -35,7 +35,7 @@ If you have selected install_dependencies during the prompt, you can skip this p
     $ pip install -r tests/requirements.txt
     ```
 
-### Write your component code in `src/lib/components/AggridDashComponent.react.js`.
+### Write your component code in `src/lib/components/DashAgGridComponent.react.js`.
 
 - The demo app is in `src/demo` and you will import your example component code into your demo app.
 - Test your code in a Python environment:
@@ -51,9 +51,9 @@ If you have selected install_dependencies during the prompt, you can skip this p
     - A sample test is available in `tests/test_usage.py`, it will load `usage.py` and you can then automate interactions with selenium.
     - Run the tests with `$ pytest tests`.
     - The Dash team uses these types of integration tests extensively. Browse the Dash component code on GitHub for more examples of testing (e.g. https://github.com/plotly/dash-core-components)
-- Add custom styles to your component by putting your custom CSS files into your distribution folder (`aggrid_dash_component`).
+- Add custom styles to your component by putting your custom CSS files into your distribution folder (`dash_ag_grid_component`).
     - Make sure that they are referenced in `MANIFEST.in` so that they get properly included when you're ready to publish your component.
-    - Make sure the stylesheets are added to the `_css_dist` dict in `aggrid_dash_component/__init__.py` so dash will serve them automatically when the component suite is requested.
+    - Make sure the stylesheets are added to the `_css_dist` dict in `dash_ag_grid_component/__init__.py` so dash will serve them automatically when the component suite is requested.
 - [Review your code](./review_checklist.md)
 
 ### Create a production build and publish:
@@ -72,7 +72,7 @@ If you have selected install_dependencies during the prompt, you can skip this p
 
 3. Test your tarball by copying it into a new environment and installing it locally:
     ```
-    $ pip install aggrid_dash_component-0.0.1.tar.gz
+    $ pip install dash_ag_grid_component-0.0.1.tar.gz
     ```
 
 4. If it works, then you can publish the component to NPM and PyPI:
