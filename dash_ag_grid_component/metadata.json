@@ -1,0 +1,190 @@
+{
+  "src/lib/components/DashAgGridComponent.react.js": {
+    "description": "ExampleComponent is an example component.\r\nIt takes a property, `label`, and\r\ndisplays it.\r\nIt renders an input with the property `value`\r\nwhich is editable by the user.",
+    "displayName": "DashAgGridComponent",
+    "methods": [
+      {
+        "name": "onSelectionChanged",
+        "docblock": null,
+        "modifiers": [],
+        "params": [],
+        "returns": null
+      },
+      {
+        "name": "onColumnMoved",
+        "docblock": null,
+        "modifiers": [],
+        "params": [],
+        "returns": null
+      },
+      {
+        "name": "onColumnEvent",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "e",
+            "type": null
+          }
+        ],
+        "returns": null
+      }
+    ],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "rowSelection": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "rowSelection for ag-grid."
+      },
+      "gridApi": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "gridApi for ag-Grid."
+      },
+      "columnDefs": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "columnDefs for ag-Grid."
+      },
+      "rowData": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "rowData for ag-Grid."
+      },
+      "selectedRows": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "selectedRows for ag-Grid."
+      },
+      "columnState": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "columnState for ag-Grid."
+      },
+      "resizedColumn": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "resizedColumn for ag-Grid."
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\r\nto Dash, to make them available for callbacks."
+      },
+      "table_height": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "table_height for ag-Grid."
+      },
+      "table_width": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "table_width for ag-Grid."
+      },
+      "pinnedTopRowData": {
+        "type": {
+          "name": "any"
+        },
+        "required": false,
+        "description": "pinnedTopRowData for ag-Grid."
+      },
+      "pagination": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "pagination for ag-Grid."
+      },
+      "animateRows": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "animateRows for ag-Grid."
+      },
+      "enableCellChangeFlash": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "enableCellChangeFlash for ag-Grid."
+      },
+      "rowDragManaged": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "rowDragManaged for ag-Grid."
+      },
+      "enableCellTextSelection": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "enableCellTextSelection for ag-Grid."
+      },
+      "rowDragEntireRow": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "rowDragEntireRow for ag-Grid."
+      },
+      "tooltipShowDelay": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "tooltipShowDelay for ag-Grid."
+      },
+      "singleClickEdit": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "singleClickEdit for ag-Grid."
+      },
+      "debounceVerticalScrollbar": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "debounceVerticalScrollbar for ag-Grid."
+      },
+      "rowBuffer": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "rowBuffer for ag-Grid."
+      }
+    }
+  }
+}
