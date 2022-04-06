@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fea6b8e2-738c-4599-be0a-cb1808a1a412" name="Changes" comment="added forgotten files" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="20wo3mGPz4TUGGmdMzpZhcsAk3t" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\krest\PycharmProjects\pp_aggrid_dash_component" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fea6b8e2-738c-4599-be0a-cb1808a1a412" name="Changes" comment="" />
+      <created>1636964814456</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636964814456</updated>
+      <workItem from="1636964817732" duration="257000" />
+      <workItem from="1636965275429" duration="57000" />
+      <workItem from="1638549632624" duration="201000" />
+      <workItem from="1638962549953" duration="147000" />
+      <workItem from="1643013683704" duration="1062000" />
+      <workItem from="1647703745179" duration="3000" />
+      <workItem from="1648676924522" duration="1342000" />
+      <workItem from="1648688875247" duration="1187000" />
+      <workItem from="1649222173014" duration="901000" />
+    </task>
+    <task id="LOCAL-00001" summary="table theme">
+      <created>1636964933014</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1636964933014</updated>
+    </task>
+    <task id="LOCAL-00002" summary="table theme">
+      <created>1636965321946</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1636965321946</updated>
+    </task>
+    <task id="LOCAL-00003" summary="scary changes">
+      <created>1638549824724</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1638549824724</updated>
+    </task>
+    <task id="LOCAL-00004" summary="see documentation for more information !">
+      <created>1638962690836</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1638962690836</updated>
+    </task>
+    <task id="LOCAL-00005" summary="rowDrag True Default col">
+      <created>1643013900468</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1643013900468</updated>
+    </task>
+    <task id="LOCAL-00006" summary="rowDrag True Default col 2">
+      <created>1643014148145</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1643014148145</updated>
+    </task>
+    <task id="LOCAL-00007" summary="updated aggrid">
+      <created>1648677044475</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1648677044475</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added forgotten files">
+      <created>1648677632840</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1648677632840</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="table theme" />
+    <MESSAGE value="scary changes" />
+    <MESSAGE value="see documentation for more information !" />
+    <MESSAGE value="rowDrag True Default col" />
+    <MESSAGE value="rowDrag True Default col 2" />
+    <MESSAGE value="updated aggrid" />
+    <MESSAGE value="added forgotten files" />
+    <option name="LAST_COMMIT_MESSAGE" value="added forgotten files" />
+  </component>
+</project>
